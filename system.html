@@ -89,16 +89,18 @@
   <div id="site-header"></div>
 
   <main>
-    <section class="page-hero page-hero--system">
-      <div class="container">
-        <span class="page-hero__eyebrow" data-i18n="system.hero.eyebrow">System Architecture</span>
-        <h1 class="page-hero__title" data-i18n="system.hero.title">虛擬製播整合系統</h1>
-        <p class="page-hero__desc" data-i18n="system.hero.desc">
-          以虛擬攝影棚、節目導播、字幕圖文、提詞系統、訊號轉換與數字人技術為核心，
-          結合各類廣播設備整合能力，建立完整且可擴充的現代化製播流程。
-        </p>
-      </div>
-    </section>
+    <section class="page-hero page-hero--system system-hero">
+ <div class="container system-hero__layout">
+  <div class="system-hero__copy">
+   <span class="page-hero__eyebrow" data-i18n="system.hero.eyebrow">Professional Production Solutions</span>
+   <h1 class="page-hero__title" data-i18n="system.hero.title">從構想到開播，打造你的專業攝影棚</h1>
+   <p class="page-hero__desc" data-i18n="system.hero.desc">從虛擬攝影棚、攝影機與導播系統到直播與錄製，依需求規劃完整的專業影音製作環境。</p>
+   <div class="system-hero__actions"><a href="./contact.html" class="btn btn--primary btn--lg" data-i18n="system.hero.cta">洽詢系統方案</a><a href="#system-workflow" class="btn btn--secondary btn--lg" data-i18n="system.hero.explore">了解製作流程</a></div>
+   <div class="system-hero__highlights"><span data-i18n="system.hero.h1">完整系統規劃</span><span data-i18n="system.hero.h2">設備整合</span><span data-i18n="system.hero.h3">安裝與操作導入</span></div>
+  </div>
+  <figure class="system-hero__visual"><img src="./assets/images/studio/studio-b-wide.webp" width="1920" height="1080" fetchpriority="high" alt="Sentrum 實際攝影棚空間與燈光設備"/><figcaption data-i18n="system.hero.visual">專業攝影棚與影音製作環境</figcaption></figure>
+ </div>
+</section>
 
     <section class="section">
       <div class="container split-layout">
@@ -115,57 +117,24 @@
           </p>
         </div>
         <div class="split-layout__media">
-          <img class="media-image media-image--cover" src="./assets/images/products/ue-virtual-editor.webp" width="1600" height="800" loading="lazy" alt="UE Virtual 即時虛擬製播場景編輯介面" />
+          <div class="system-comparison"><figure><img src="./assets/images/studio/studio-b-wide.webp" width="1920" height="1080" loading="lazy" alt="實際攝影棚空間"/><figcaption data-i18n="system.visual.studio">實體攝影棚</figcaption></figure><figure><img src="./assets/images/products/ue-virtual-stage.webp" width="1600" height="834" loading="lazy" alt="UE Virtual 虛擬場景示範"/><figcaption data-i18n="system.visual.virtual">虛擬場景示範</figcaption></figure></div>
         </div>
       </div>
     </section>
 
-    <section class="section section--muted">
-      <div class="container">
-        <div class="section-heading section-heading--center">
-          <span class="section-heading__eyebrow" data-i18n="system.workflow.eyebrow">Workflow</span>
-          <h2 class="section-heading__title-" data-i18n="system.workflow.title">系統流程邏輯</h2>
-          <p class="section-heading__desc" data-i18n="system.workflow.desc">
-            從內容輸入、訊號處理到節目輸出，各模組可依需求相互搭配，
-            建立更穩定且有效率的製播流程。
-          </p>
-        </div>
-
-        <div class="timeline">
-          <article class="timeline__item">
-            <span class="timeline__step">01</span>
-            <div>
-              <h3 data-i18n="system.workflow.items.0.title">拍攝與訊號進入</h3>
-              <p data-i18n="system.workflow.items.0.desc">由攝影機、音訊設備或其他來源訊號進入系統，建立穩定的前端輸入基礎。</p>
-            </div>
-          </article>
-
-          <article class="timeline__item">
-            <span class="timeline__step">02</span>
-            <div>
-              <h3 data-i18n="system.workflow.items.1.title">訊號轉換與路徑整理</h3>
-              <p data-i18n="system.workflow.items.1.desc">透過 U-Hub 進行三向訊號轉換與整合，提升不同設備之間的相容與運作穩定性。</p>
-            </div>
-          </article>
-
-          <article class="timeline__item">
-            <span class="timeline__step">03</span>
-            <div>
-              <h3 data-i18n="system.workflow.items.2.title">虛擬場景與節目製作</h3>
-              <p data-i18n="system.workflow.items.2.desc">以 UE Virtual、U-Show、U-CG、U-TP 等模組建立虛擬製播、導播、字幕與提詞流程。</p>
-            </div>
-          </article>
-
-          <article class="timeline__item">
-            <span class="timeline__step">04</span>
-            <div>
-              <h3 data-i18n="system.workflow.items.3.title">錄製、直播與內容延伸</h3>
-              <p data-i18n="system.workflow.items.3.desc">完成節目錄製或直播輸出，並可進一步搭配 U-Gemini 發展 AI 數字人內容應用。</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
+    <section class="section section--muted system-workflow-section" id="system-workflow">
+ <div class="container">
+  <div class="section-heading section-heading--center"><span class="section-heading__eyebrow">PRODUCTION WORKFLOW</span><h2 class="section-heading__title" data-i18n="system.workflow.title">從拍攝到播出，流程一目了然</h2><p class="section-heading__desc" data-i18n="system.workflow.desc">清楚掌握畫面與聲音如何經過專業製作，再傳送到觀眾眼前。</p></div>
+  <div class="system-flow">
+   <article class="system-flow__stage"><span class="system-flow__number">01 / INPUT</span><h3 data-i18n="system.flow.a.title">拍攝與素材</h3><p data-i18n="system.flow.a.desc">攝影機、麥克風及影音來源</p><ul><li data-i18n="system.flow.camera">攝影機畫面</li><li data-i18n="system.flow.audio">麥克風與聲音</li><li data-i18n="system.flow.media">簡報與影片</li></ul></article>
+   <span class="system-flow__arrow" aria-hidden="true">→</span>
+   <article class="system-flow__stage system-flow__stage--core"><span class="system-flow__number">02 / PRODUCTION</span><h3 data-i18n="system.flow.b.title">節目製作與控制</h3><p data-i18n="system.flow.b.desc">依需求整合虛擬攝影棚、導播、字幕與提詞</p><ul><li>UE Virtual</li><li>U-Show</li><li>U-CG / U-TP</li></ul></article>
+   <span class="system-flow__arrow" aria-hidden="true">→</span>
+   <article class="system-flow__stage"><span class="system-flow__number">03 / OUTPUT</span><h3 data-i18n="system.flow.c.title">直播與錄製</h3><p data-i18n="system.flow.c.desc">把完成的節目傳送到需要的地方</p><ul><li data-i18n="system.flow.live">線上直播</li><li data-i18n="system.flow.record">錄製節目</li><li data-i18n="system.flow.display">現場螢幕</li></ul></article>
+  </div>
+  <p class="system-flow__note" data-i18n="system.flow.note">此為常見製作流程示意；實際設備與訊號連接依個別需求規劃。</p>
+ </div>
+</section>
 
     <section class="section">
   <div class="container">
@@ -177,7 +146,7 @@
       </p>
     </div>
 
-    <div class="case-grid">
+    <div class="case-grid system-product-grid">
       <article class="case-card">
         <div class="case-card__thumb">
           <img src="./assets/images/products/ue-virtual-stage.webp" width="1600" height="834" loading="lazy" alt="UE Virtual 虛擬製播操作介面" />
@@ -314,7 +283,7 @@
       <div class="container">
         <div class="section-heading">
           <span class="section-heading__eyebrow" data-i18n="system.integration.eyebrow">Integration</span>
-          <h2 class="section-heading__title-" data-i18n="system.integration.title">系統整合能力</h2>
+          <h2 class="section-heading__title" data-i18n="system.integration.title">系統整合能力</h2>
           <p class="section-heading__desc" data-i18n="system.integration.desc">
             除了自有核心模組外，我們也可整合各類廣播級設備與現場製播流程，
             建立更完整的工作環境。
@@ -363,22 +332,22 @@
         </div>
 
         <div class="audience-grid">
-          <article class="audience-card">
+          <article class="audience-card system-scenario"><div class="system-scenario__visual"><span>01</span><strong>LIVE PRODUCTION</strong></div>
             <h3 data-i18n="system.suitable.items.0.title">企業直播</h3>
             <p data-i18n="system.suitable.items.0.desc">適合品牌直播、記者會、產品發表、內訓與商務內容拍攝。</p>
           </article>
 
-          <article class="audience-card">
+          <article class="audience-card system-scenario"><div class="system-scenario__visual"><span>02</span><strong>EDUCATION</strong></div>
             <h3 data-i18n="system.suitable.items.1.title">線上課程</h3>
             <p data-i18n="system.suitable.items.1.desc">支援講師錄製、教材拍攝、簡報整合與長期教育內容製作。</p>
           </article>
 
-          <article class="audience-card">
+          <article class="audience-card system-scenario"><div class="system-scenario__visual"><span>03</span><strong>INTERVIEW</strong></div>
             <h3 data-i18n="system.suitable.items.2.title">節目與訪談</h3>
             <p data-i18n="system.suitable.items.2.desc">可應用於人物訪談、論壇、Podcast 影像化與多機節目製作。</p>
           </article>
 
-          <article class="audience-card">
+          <article class="audience-card system-scenario"><div class="system-scenario__visual"><span>04</span><strong>DIGITAL HUMAN</strong></div>
             <h3 data-i18n="system.suitable.items.3.title">AI 內容延伸</h3>
             <p data-i18n="system.suitable.items.3.desc">透過數字人模組進一步擴展品牌內容、自動化口播與虛擬人物應用。</p>
           </article>

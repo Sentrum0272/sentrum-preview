@@ -456,3 +456,7 @@
   .integration-showcase { height: 350px; padding: 10px; gap: 10px; }
   .integration-showcase__frame figcaption { font-size: 0.72rem; padding: 5px 9px; }
 }
+
+/* Integration block: a single full-width image. */
+.section--integration-image .integration-image { display:block; width:100%; height:auto; border-radius:20px; }
+@media(max-width:640px){.section--integration-image .integration-image{border-radius:12px}}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 720" width="1440" height="720">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#eef5fa"/><stop offset="1" stop-color="#d9e5ef"/></linearGradient><linearGradient id="core" x2="1" y2="1"><stop stop-color="#164264"/><stop offset="1" stop-color="#10283f"/></linearGradient></defs>
+<rect width="1440" height="720" rx="25" fill="url(#bg)"/>
+<rect x="24" y="24" width="1392" height="672" rx="20" fill="none" stroke="#c1d1de" stroke-width="2"/>
+<text x="85" y="90" font-family="Arial,sans-serif" font-size="20" letter-spacing="3" fill="#3a617e">SYSTEM INTEGRATION</text>
+<text x="1355" y="90" text-anchor="end" font-family="Arial,sans-serif" font-size="16" fill="#64849a">CONCEPTUAL VIEW</text>
+<path d="M 555 350 C 460 350, 450 222, 367 222" stroke="#709bb9" stroke-width="4" fill="none"/>
+<rect x="73" y="166" width="294" height="112" rx="18" fill="#fff" stroke="#b6cad9" stroke-width="2"/>
+<rect x="73" y="166" width="8" height="112" rx="4" fill="#2f91aa"/>
+<text x="220" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" fill="#24435c" font-weight="700">CAMERA</text>
+<path d="M 555 350 C 460 350, 450 466, 367 466" stroke="#709bb9" stroke-width="4" fill="none"/>
+<rect x="73" y="410" width="294" height="112" rx="18" fill="#fff" stroke="#b6cad9" stroke-width="2"/>
+<rect x="73" y="410" width="8" height="112" rx="4" fill="#db9d5e"/>
+<text x="220" y="476" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" fill="#24435c" font-weight="700">UE Virtual</text>
+<path d="M 885 350 C 980 350, 990 222, 1073 222" stroke="#709bb9" stroke-width="4" fill="none"/>
+<rect x="1073" y="166" width="294" height="112" rx="18" fill="#fff" stroke="#b6cad9" stroke-width="2"/>
+<rect x="1073" y="166" width="8" height="112" rx="4" fill="#2f91aa"/>
+<text x="1220" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" fill="#24435c" font-weight="700">U-Show</text>
+<path d="M 885 350 C 980 350, 990 466, 1073 466" stroke="#709bb9" stroke-width="4" fill="none"/>
+<rect x="1073" y="410" width="294" height="112" rx="18" fill="#fff" stroke="#b6cad9" stroke-width="2"/>
+<rect x="1073" y="410" width="8" height="112" rx="4" fill="#db9d5e"/>
+<text x="1220" y="476" text-anchor="middle" font-family="Arial,sans-serif" font-size="27" fill="#24435c" font-weight="700">DISPLAY</text>
+<rect x="550" y="258" width="340" height="184" rx="25" fill="url(#core)"/>
+<rect x="563" y="271" width="314" height="158" rx="19" stroke="#49728d" stroke-width="2" fill="none"/>
+<text x="720" y="334" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="44" font-weight="700">U-Hub</text>
+<text x="720" y="384" text-anchor="middle" fill="#b0cddf" letter-spacing="2" font-family="Arial,sans-serif" font-size="15">SIGNAL INTEGRATION</text>
+<path d="M720 442 V553" stroke="#709bb9" stroke-width="4" />
+<rect x="515" y="553" width="410" height="80" rx="16" fill="#fff" stroke="#b6cad9" stroke-width="2"/>
+<text x="720" y="604" text-anchor="middle" fill="#24435c" font-weight="700" font-family="Arial,sans-serif" font-size="26">SIGNAL ROUTING</text>
+<text x="85" y="666" font-family="Arial,sans-serif" font-size="15" fill="#688299">Illustrative module relationships; actual wiring and compatibility depend on configuration.</text>
+</svg>
